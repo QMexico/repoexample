@@ -80,7 +80,7 @@ def Face_Rec(VideoCap_Or):
     face_recognizer.read(FaceFile_1)
     cap = cv2.VideoCapture(VideoCap_Or)
     face_class = cv2.CascadeClassifier(cv2.data.haarcascades + hardCas)
-    Spk_Sen("Iniciando modo de visualizacion")
+    Spk_Sen("Iniciando modo de visualización")
     while True:
         ret, frame = cap.read()
         if ret==False: break
@@ -110,5 +110,3 @@ def Face_Rec(VideoCap_Or):
             break
     cap.release()
     cv2.destroyAllWindows()
-
-Face_Rec('Colin_Cazares.mp4')
