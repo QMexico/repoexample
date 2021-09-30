@@ -8,6 +8,7 @@ Jrmy_Voice = Spk.init()
 voices = Jrmy_Voice.getProperty('voices')
 voices = Jrmy_Voice.setProperty('voice', voices[1].id)
 
+# Comentario para pruebas y reviews
 dataPath = 'C:/Users/pablo/PycharmProjects/pythonProject4/Faces_Folder'
 hardCas = 'haarcascade_frontalface_default.xml'
 FaceFile_1 = 'Face_Model_B.xml'
