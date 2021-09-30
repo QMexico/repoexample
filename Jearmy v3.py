@@ -1,3 +1,4 @@
+# Este es un comentario nuevo
 import cv2, os
 import imutils as imu
 import pyttsx3 as Spk
